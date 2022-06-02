@@ -7,7 +7,7 @@ $(function(){
     .modal()
   ;
 
-  var clipboard = new Clipboard('.copyable');
+  var clipboard = new ClipboardJS('.copyable');
 
   $customShortId = $('#customShortid');
   $shortId = $('#shortid');
